@@ -49,8 +49,8 @@ nav a {
   height: 100vh;
   width: 100%;
   background-image: url("images/hardy1.jpeg");
-  background-repeat: repeat;
   background-position: bottom right;
+  background-position: cover;
 }
 .banner {
   padding: 30px 30px 0px 200px;
@@ -131,7 +131,38 @@ main section{
 .s1{
     margin-top: 10px;
 }
+.s2{
+    margin-bottom: 70px;
+}
+.resume{
+    padding: 0 130px;
+}
 .resume-column-title{
     font-size: 25px;
+    margin-bottom: 30px;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-des, .resume-item-ins{
+    color: #474747;
+    margin-bottom: 20px;
+}
+.resume-item-title{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #474747;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 30px;
+}
+.btn1{
+    font-size: 16px;
+    padding: 15px;
 }
 /* main style end */
