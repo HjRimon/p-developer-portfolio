@@ -105,6 +105,9 @@ main{
     justify-content: space-around;
 }
 .about-info{
-    text-align: center;
+  text-align: center;
+}
+#what{
+    padding: 30px 150px;
 }
 /* main style end */
