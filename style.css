@@ -58,56 +58,80 @@ nav a {
   justify-content: space-between;
   align-items: center;
 }
-.banner-img{
+.banner-img {
   width: 50%;
 }
-.banner-img img{
-    width: 447px;
-    background-repeat: no-repeat;
+.banner-img img {
+  width: 447px;
+  background-repeat: no-repeat;
 }
-.banner-text h3{
-    font-size: 40px;
-    margin-bottom: 5px;
+.banner-text h3 {
+  font-size: 40px;
+  margin-bottom: 5px;
 }
-.banner-text h1{
-    font-size: 60px;
-    margin-bottom: 10px;
+.banner-text h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
 }
-.banner-text p{
-    margin-bottom: 30px;
+.banner-text p {
+  margin-bottom: 30px;
 }
-.btn-2nd{
-    margin-right: 10px;
+.btn-2nd {
+  margin-right: 10px;
 }
 /* main style start */
-main{
-    max-width: 1140px;
-    margin: 0 auto;
+main {
+  max-width: 1140px;
+  margin: 0 auto;
 }
-.about{
-    padding: 130px;
-    background-color: antiquewhite;
-    margin: 130px 100px;
-    border-radius: 15px;
+.about {
+  padding: 130px;
+  background-color: antiquewhite;
+  margin: 130px 100px;
+  border-radius: 15px;
 }
-.section-title{
-    text-align: center;
-    font-size: 35px;
-    font-weight: 700;
-    margin-bottom: 20px;
+.section-title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
-.section-des{
-    text-align: center;
-    margin-bottom: 40px;
+.section-des {
+  text-align: center;
+  margin-bottom: 40px;
 }
-.about-info-container{
-    display: flex;
-    justify-content: space-around;
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
 }
-.about-info{
+.about-info {
   text-align: center;
 }
-#what{
-    padding: 30px 150px;
+#what {
+  padding: 30px 150px;
+}
+.skills-container {
+  display: flex;
+  gap: 24px;
+  background: #fff;
+}
+.skills {
+  padding: 30px;
+  box-shadow: -22px 0px 50px rgb(61, 60, 60);
+  border-radius: 15px;
+  cursor: pointer;
+}
+.skill-des {
+    color: #474747;
+    margin-top: 10px;
+}
+main section{
+    margin-top: 130px;
+}
+.s1{
+    margin-top: 10px;
+}
+.resume-column-title{
+    font-size: 25px;
 }
 /* main style end */
